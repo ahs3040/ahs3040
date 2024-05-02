@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #555;
+}
+
+.checkbtn {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    ul {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+    }
+    ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .checkbtn {
+        display: block;
+    }
+    #check:checked + ul {
+        display: flex;
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <nav>
+        <label class="logo">Logo</label>
+        <input type="checkbox" id="check">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+</body>
+</html>

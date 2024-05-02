@@ -1,0 +1,503 @@
+*{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container{
+      width: 100%;
+      height: 700px;
+      /* border: 2px solid; */
+      background-image: url(./set-pecan-pistachios-almond-peanut-cashew-pine-nuts-lined-up-assorted-nuts-dried-fruits-mini-different-bowls_176474-2051.avif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed;
+
+}
+
+
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background-image:url(./background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;    
+    /* height: 80px; */
+    width: 100%;
+}
+label.logo{
+font-size: 30px;
+color: white;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+
+}
+
+.logo:hover{
+
+    color: rgb(23, 188, 75);
+}
+
+nav ul{
+
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+nav ul li{
+
+
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+
+}
+
+
+nav ul li a {
+
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 3px;
+border-bottom: 2px solid black;
+border: none;
+
+}
+
+a:hover{
+background-color: rgb(243, 243, 243);
+transition: .5s;
+border-radius: 20px;
+color: black;
+
+}
+
+
+.checkbtn{
+font-size: 36px;
+color: rgb(#fff);
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display:none;
+}
+
+#check{
+
+
+    display:none;
+    /* font-size: 36px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer; */
+
+}
+
+/* 
+@media (max-width: 952px) {
+
+
+label.logo{
+
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+nav ul li a {
+
+    font-size: 16px;
+}
+
+
+    
+}
+
+
+@media (max-width: 858px) {
+
+.checkbtn{
+display: block;
+color:white;
+
+}
+
+
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(225, 225, 225,0.1);
+    top: 80px;
+    left: 100%;
+    text-align: center;
+transition: all 1s;
+
+}
+
+nav ul li{
+
+
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+
+}
+nav ul li a{
+
+font-size: 20px;
+
+
+
+}
+a:hover{
+background: none;
+color: rgb(204, 255, 0);
+
+} */
+
+
+#check:checked ~ ul{
+
+    left: 0;
+}
+
+
+/* 
+.logo{
+       text-align: center;
+       font-size:50px;
+       font-family: slab serif, garamond, bodoni, and didot ;
+       margin-top: 10px;
+       color: white;
+}
+
+.tags{
+       border: 2px solid black ;
+       height: 80px;
+       width: 65%;
+       margin-left: 17%;
+       margin-top: 20px;
+       background-color: #000;
+       color: antiquewhite;
+       
+
+      
+}
+
+ul{
+    display: flex;
+    gap: 9rem;
+    margin-top: 25px;
+    font-size: 30px;
+    margin-left:7%;
+    color: #fff;
+}
+
+li a{
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+li a:hover{
+            color: coral;
+            /* lighting-color: burlywood; */
+/* } */
+
+
+/* @media (max-width:1450) {
+
+
+    .tags{
+        border: 2px solid black ;
+        height: 80px;
+        width: 65%;
+        margin-left: 17%;
+        margin-top: 20px;
+        background-color: #000;
+        color: antiquewhite;
+        
+ 
+       
+ }
+ 
+ ul{
+     display: flex;
+     gap: 9rem;
+     margin-top: 25px;
+     font-size: 20px;
+     margin-left:7%;
+     color: #fff;
+ }
+ 
+ li a{
+     color: #fff;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ 
+ li a:hover{
+             color: coral;
+             lighting-color: burlywood;
+ }
+  
+
+ */
+    
+/* } */
+
+.text{
+        font-size: 40px;
+        font-family: fantasy;
+        margin-top: 10%;
+        color: #FFF;
+        text-align: center;
+        font-weight:lighter;
+        word-spacing: 15px;
+        letter-spacing: 12px;
+        
+        
+}
+
+.align{
+         margin-top: 3%;
+         text-align: center;
+         font-size: 30px;
+         color:dodgerblue;
+         font-weight: lighter;
+
+}
+
+
+.contenr{
+
+      /* border: 2px solid; */
+      width: 100%;
+      height: 600px;
+      flex-wrap: wrap;
+
+}
+.on{
+      text-align: center;
+      font-size: 75px;
+      font-weight:lighter;
+      font-style: italic;
+      color: darkturquoise;
+}
+.set{
+      text-align: center;
+      
+}
+
+.go{
+      border: 2px solid;
+    border-radius: 20px;
+
+      width: 10%;
+      height: 40px;
+       margin-left: 38%;
+       margin-top:50px;
+       background-color:#fff;
+       /* color: white;  */
+
+    }
+
+.in{
+    border: 2px solid ;
+    border-radius: 20px;
+    width: 10%;
+    height: 40px;
+     margin-left: 8%;
+     margin-top:50px;
+     background-color:#fff;
+     /* color: white;  */
+    }
+
+ .in:hover{
+             color:#fff;
+             transition: 1s;
+             background-color:coral;
+            border: 2px solid black ;
+            
+            }   
+
+ .go:hover{
+    color:#fff;
+    transition: 1s;
+    border: 2px solid black ;
+    background-color:coral;
+}   
+
+/* .one{
+      
+      border: 2px solid black;
+      width: 40%;
+      height:500px;
+      margin-left: 1%;
+      margin-top: -14%;
+      display: block;
+} */
+
+/* .two{
+      
+    border: 2px solid black;
+    width: 20%;
+    height:300px;
+    margin-left: 1%;
+} */
+
+ /* .three{ 
+      
+    border: 2px solid black;
+    width: 20%;
+    height:300px;
+    margin-left: 28%;
+    margin-top: -13%;
+}  */
+.fit{
+       display: flex;
+       margin-top:25px ;
+       gap: 15rem;
+       position: relative;
+
+}
+
+.con {
+    /* border: 2px solid; */
+    position: relative;
+    width: 30%;
+    margin-top:-14%;
+    margin-left: 0.1%;
+  }
+
+  .cont {
+    /* border: 2px solid; */
+    position: relative;
+    width: 30%;
+    margin-top:-14%;
+    margin-left: 11%;
+  }
+
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(226, 225, 225, 0.66);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: .8s ease;
+    
+  }
+  
+  .con:hover .overlay {
+    /* bottom:0%; */
+    height: 100%;
+
+  }
+
+  .cont:hover .overlay {
+    /* bottom:0%; */
+    height: 94%;
+
+  }
+  
+  .tex {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .add{
+         border: 2px solid;
+         border-top-left-radius: 25px;
+         border-bottom-left-radius: 0px;
+         /* border-top-right-radius: 24px; */
+         border-bottom-right-radius: 25px;
+         
+         width: 150%;
+         height: 50px;
+
+  }
+  .add:hover{
+          
+        background-color: burlywood;
+        transition: .2s;
+  }
+
+.com{
+        /* border: 2px solid; */
+        width: 100%;
+        height: 500px;
+        display: flex;
+}
+
+.card{
+        border:0.5px solid;
+        width:20%;
+        height:400px;
+        text-align: center;
+        margin:50px;
+        
+
+}
+.card img{
+          width:100%;
+          height:200px;
+}
+
+.dip{
+       width: 70%;
+       height: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 25px;
+}
+
+.card h1{
+         font-size: 32px;
+         font-weight: lighter;
+}
+
+.dip:hover{
+             transition: 1s;
+             color:#fff;
+             background-color:cornflowerblue;
+             border: 2px solid  cadetblue;
+}
+
+.card img:hover{
+                   transition: 1s;
+                   transform: scale(1.1);
+                   border: 2px solid slategrey;
+}
